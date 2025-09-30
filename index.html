@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>work3</title>
+    <script
+      src="https://kit.fontawesome.com/1165876da6.js"
+      crossorigin=""
+    ></script>
+  </head>
+
+  <body>
+    <header id="iheader">
+      <nav class="header">
+        <div class="menu">
+          <a class="active" href="#home">Главная</a>
+          <a href="#shop">Блюда</a>
+          <a href="#basket">Корзина</a>
+          <a href="#about">О нас</a>
+        </div>
+      </nav>
+
+      <div class="main-heading">
+        <div>
+          <a href="#" class="logo" class="heading-content"
+            ><img
+              src="0ec03d25d8e2641d2b5e77e4f06fc411-no-bg-preview (carve.photos).png"
+              ;
+              alt="logo"
+              max-width="960px"
+              width="90%"
+              height="90%"
+          /></a>
+        </div>
+        <div>
+          <h1 class="heading-content">
+            <span id="NATIONAL FOOD">NATIONAL FOOD</span>
+          </h1>
+          <p class="heading-content">
+            Traditional food is food and dishes that are passed down from
+            generation to generation. National dishes in different countries are
+            not just food; they tell us about history and traditions.
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <div id="navig">
+      <h3>Навигация</h3>
+      <ul>
+        <li><a href="#itable">Скидки и акции</a></li>
+        <li><a href="#iform">Работа в нашей команде</a></li>
+        <li><a href="#ifooter">Контакты и соц-сети</a></li>
+      </ul>
+    </div>
+
+    <table class="table" id="itable">
+      <caption class="tname">
+        НАШИ СКИДКИ
+      </caption>
+      <thead class="thead">
+        <tr>
+          <th>Страна</th>
+          <th>Название</th>
+          <th>Состав</th>
+          <th>Цена</th>
+        </tr>
+      </thead>
+      <tbody class="tbody">
+        <tr class="tr body" class="nch">
+          <td>Грузия</td>
+          <td>Комбо по Грузински</td>
+          <td>Грузинский чай 300 мл, суп Харчо, Хачапури 1 шт, Хинкали 2 шт</td>
+          <td>2300 руб</td>
+        </tr>
+        <tr class="tr body" class="ch">
+          <td>Узбекистан</td>
+          <td>Комбо по Узбекски</td>
+          <td>Кумыс 300 мл,суп Шурпа, Самса 1 шт, конфеты Пашмак</td>
+          <td>2200 руб</td>
+        </tr>
+        <tr class="tr body" class="nch">
+          <td>Украина</td>
+          <td>Комбо по Украински</td>
+          <td>
+            Сбитень 300 мл,Борщ, пирожок лук-яйцо, пельмени с сметаной 5 шт
+          </td>
+          <td>2100 руб</td>
+        </tr>
+        <tr class="tr body" class="ch">
+          <td>Армения</td>
+          <td>Комбо по Армянски</td>
+          <td>
+            Армянский кофе 100 мл,суп Хаш, долма в виноградных листьях 3 шт,
+            Пахлава
+          </td>
+          <td>2500 руб</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr class="tr body" class="ch">
+          <td colspan="4">АКЦИЯ студентам до 15%!</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <div class="form" id="iform">
+      <div class="wrapper" class="form-content">
+        <h2>Хотите работать у нас?</h2>
+        <form>
+          <fieldset>
+            <legend>Заполните форму</legend>
+            <p>
+              <label for="name">ФИО:</label>
+              <input id="name" />
+            </p>
+            <p>
+              <label for="tel">Номер Телефона:</label>
+              <input id="tel" name="user tel" type="tel" />
+            </p>
+            <p>
+              <label for="email">e-mail:</label>
+              <input id="email" name="user email" type="email" />
+            </p>
+            <p>
+              <label for="data">Дата Рождения:</label>
+              <input id="data" name="user HB" type="date" />
+            </p>
+            <p>
+              <input type="radio" id="mail" name="гендер" />
+              <label id="mail">м</label>
+              <input type="radio" id="femail" name="гендер" />
+              <label id="femail">ж</label>
+            </p>
+            <p>
+              <label for="experience">Ваш опыт работы</label>
+              <select id="experience" name="experience user">
+                <option value="absence">absence</option>
+                <option value="absence">0-1</option>
+                <option value="absence">3-10</option>
+                <option value="absence">10+</option>
+              </select>
+            </p>
+            <p>
+              <label for="last work">место последней работы</label>
+              <input name="last work user" id="last work" />
+            </p>
+            <p>
+              <label for="bio">Расскажите о себе</label>
+              <textarea name="user-bio" id="bio"></textarea>
+            </p>
+            <p>
+              <input type="checkbox" id="agree" />
+              <label id="agree"
+                >Согласен с условиями обработки и передачи данных</label
+              >
+            </p>
+          </fieldset>
+          <p><button type="submit">Сохранить</button></p>
+        </form>
+      </div>
+      <!---<div class="form-content">
+        <img src="команда.jpg" alt="Команда" />
+      </div>-->
+    </div>
+
+    <footer id="ifooter">
+      <div class="footer">
+        <div class="footer-content">
+          <h3>наши контакты</h3>
+          <p>Email:NFOOD@mail.ru</p>
+          <p>Tel:+79187770077</p>
+          <p>Address:г.Краснодар, ул Кубанская 68</p>
+        </div>
+        <div class="footer-content">
+          <h3>разделы</h3>
+          <ul class="list">
+            <li><a href="#home">Главная</a></li>
+            <li><a href="#shop">Блюда</a></li>
+            <li><a href="#basket">Корзина</a></li>
+            <li><a href="#about">О нас</a></li>
+          </ul>
+        </div>
+        <div class="footer-content">
+          <h3>соц-сети</h3>
+          <ul class="social-icons">
+            <li>
+              <a href="#inst"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#telega"><i class="fab fa-telegram"></i></a>
+            </li>
+            <li>
+              <a href="#vk"><i class="fab fa-vk"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-battom">
+        <p>&copy; Copyright © 2025 NFOOD. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

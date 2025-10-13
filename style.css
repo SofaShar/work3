@@ -232,10 +232,11 @@ a:hover {
 }
 
 @media screen and (min-width: 500px) {
-.main-heading h1 {
-    font-size: 90px;
-    text-align: center;
-}
+    .main-heading h1 {
+        font-size: 90px;
+        text-align: center;
+    }
+
     .wrapper {
         width: 50%;
     }
@@ -243,6 +244,10 @@ a:hover {
     .fc-num2,
     .fc-num3 {
         display: block;
+    }
+
+    .nav {
+        max-width: 960px;
     }
 }
 

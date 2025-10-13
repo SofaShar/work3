@@ -231,12 +231,12 @@ a:hover {
 }
 
 @media screen and (min-width: 500px) {
+.main-heading h1 {
+    font-size: 90px;
+    text-align: center;
+}
     .wrapper {
         width: 50%;
-    }
-
-    footer {
-        width: 1140px;
     }
 
     .fc-num2,

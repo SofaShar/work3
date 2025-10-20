@@ -26,18 +26,15 @@ nav {
 }
 
 .menu {
-    float: right;
     display: flex;
-    align-items: center;
+    flex-direction: column;
 }
 
 .header a {
-    color: rgb(255, 255, 255);
     text-align: center;
     padding: 12px;
     text-decoration: none;
     font-size: 18px;
-    line-height: 25px;
 }
 
 .main-heading {
@@ -49,6 +46,7 @@ nav {
 .main-heading h1 {
     font-size: 50px;
     text-align: center;
+    padding: 5px;
 }
 
 .main-heading p {
@@ -116,10 +114,9 @@ th {
 }
 
 .form {
-    margin: none;
-    padding: none;
     display: flex;
     align-items: flex-start;
+    margin: 20px auto;
 }
 
 input,
@@ -245,6 +242,10 @@ a:hover {
     .nav {
         max-width: 960px;
     }
+    .menu {
+    float: right;
+    display: flex;
+}
 }
 
 /*.list li::before {
@@ -263,4 +264,5 @@ a:hover {
   width: 70px;
 
 }*/
+
 

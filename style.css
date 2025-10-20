@@ -151,12 +151,10 @@ footer {
 .footer {
     margin: auto;
     display: flex;
-    align-items: flex-start;
     justify-content: center;
 }
 
 .footer-content {
-    width: 33.3%;
     margin: auto;
     text-align: center;
 }
@@ -167,9 +165,7 @@ footer {
 }
 
 .footer-content p {
-    width: 190px;
-    margin: auto;
-    padding: 7px;
+    max-width: 190px;
 }
 
 h3 {
@@ -265,4 +261,5 @@ a:hover {
 }
 .list li:hover::before {
   width: 70px;
+
 }*/

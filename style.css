@@ -41,20 +41,20 @@ nav {
 }
 
 .main-heading {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     margin: auto;
 }
 
 .main-heading h1 {
-    font-size: 58px;
+    font-size: 50px;
     text-align: center;
-    margin-top: 59px;
 }
 
 .main-heading p {
     font-size: 18px;
     line-height: 26px;
+    display:none;
     text-align: center;
 }
 
@@ -263,3 +263,4 @@ a:hover {
   width: 70px;
 
 }*/
+

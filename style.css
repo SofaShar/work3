@@ -224,6 +224,11 @@ a:hover {
 }
 
 @media screen and (min-width: 500px) {
+    .header {
+    max-width: 960px;
+    background-color: #2e090a;
+    padding: 10px 20px;
+}
     .main-heading h1 {
         font-size: 90px;
         text-align: center;
@@ -246,6 +251,7 @@ a:hover {
     .menu {
     float: right;
     display: flex;
+    flex-direction: row;
 }
     .main-heading p {
     font-size: 18px;
@@ -271,6 +277,7 @@ a:hover {
   width: 70px;
 
 }*/
+
 
 
 

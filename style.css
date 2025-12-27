@@ -228,13 +228,18 @@ a:hover {
   font-size: 16px;
   padding: 7px;
 }
-
+@media screen and (min-width: 960px) {
+  .header {
+    position: absolute;
+    right: 0px;
+    order: 0;
+    max-width: 960px;
+    padding: 10px 20px;
+  }
+}
 @media screen and (min-width: 500px) {
   .header {
     order: 0;
-    max-width: 960px;
-
-    background-color: #2e090a;
     padding: 10px 20px;
   }
   .main-heading h1 {
